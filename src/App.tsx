@@ -1,8 +1,16 @@
 import './App.css'
+import { HTag } from './components/HTag'
 
 export const App = () => {
   return (
-    <h1>Music app</h1>
+    <>
+      <HTag tag='h1'>HTag</HTag>
+      <HTag tag='h2'>HTag</HTag>
+      <HTag tag='h3'>HTag</HTag>
+      <HTag tag='h4'>HTag</HTag>
+      <HTag tag='h5'>HTag</HTag>
+      <HTag tag='h6'>HTag</HTag>
+    </>
   )
 }
 
