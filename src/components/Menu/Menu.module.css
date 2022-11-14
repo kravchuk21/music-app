@@ -1,0 +1,12 @@
+:root {
+  --border-radius: 40px;
+}
+
+.Menu {
+  background: #41464B;
+  display: flex;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
+  justify-content: space-around;
+  padding: 20px;
+}
